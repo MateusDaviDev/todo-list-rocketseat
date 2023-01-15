@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  background-color: var(--gray-700);
+  min-height: 12.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; 
+  margin-bottom: 5rem;
+}
+
+.inputArea{
+  position: absolute;
+  height: 3.375rem;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  gap: .3rem;
+  justify-content: center;
+  top: calc(12.5rem - 3.375rem/2);
+  max-width: 42rem;
+
+
+}
+.inputArea button{
+  display: flex;
+  max-width: 5rem;
+  width: 100%;
+  border-radius: .5rem;
+  border: none;
+  padding: .8rem;
+  background-color: var(--blue-dark);
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+}
+
+
+.inputArea input{
+  flex: 1;
+  border-radius: .5rem;
+  border: 1px solid var(--gray-500);
+  outline: none;
+  background-color: var(--gray-500);
+  color:var(--Gray-300);
+  width: 100%;
+  padding: 10px;
+}
